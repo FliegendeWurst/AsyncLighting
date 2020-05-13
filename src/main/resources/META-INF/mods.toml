@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/FliegendeWurst/AsyncLighting/issues"
+
+[[mods]]
+modId="asynclighting"
+displayName="AsyncLighting"
+version="0.1"
+#updateJSONURL=""
+displayURL="https://github.com/FliegendeWurst/AsyncLighting/"
+#logoFile=""
+authors="FliegendeWurst"
+description='''
+Asynchronous light processing, rendering and more.
+'''
+
+[[dependencies.asynclighting]]
+	modId="forge"
+	mandatory=true
+	versionRange="[31,)" #mandatory
+	ordering="NONE"
+	side="BOTH"
+[[dependencies.asynclighting]]
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.15.2]"
+	ordering="NONE"
+	side="BOTH"

@@ -1,8 +1,8 @@
 # AsyncLighting
 
-This mod moves Minecraft's light engine processing to another thread, fixing MC-162253.
+This mod moves Minecraft's light engine processing to another thread, "fixing" [MC-162253](https://bugs.mojang.com/browse/MC-162253) (underlying performance issue still exists, but does not impact FPS anymore).
 
-MC-123584 is also fixed by simply moving all rendering off the main thread. It is recommended to enable the Forge "alwaysSetupTerrainOffThread" option to avoid rendering issues.
+[MC-123584](https://bugs.mojang.com/browse/MC-123584) is also fixed by simply moving all rendering off the main thread. It is recommended to enable the Forge "alwaysSetupTerrainOffThread" option to avoid rendering issues.
 
 Also included is a fix for opening screenshots using the chat link (vanilla behaviour: freezing the game until image viewer is closed).
 
